@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: 'subscription-id'
+  azureSubscription: 'Azure for Students (6c9a9fa8-0f9d-4c7d-8e78-45aa1f91682a)'
   # Web app name
   webAppName: 'test20230307-1web'
   # Agent VM image name
@@ -22,7 +22,7 @@ stages:
 - stage: Build
   displayName: Build stage
   variables:
-    phpVersion: '7.3'
+    phpVersion: '8.0'
   jobs:
   - job: BuildJob
     pool:
