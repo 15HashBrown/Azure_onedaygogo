@@ -18,8 +18,7 @@ variables:
 
   # Root folder under which your composer.json file is available.
   rootFolder: $(System.DefaultWorkingDirectory)
-  pool:
-    name: Azure Pipelines
+  
 stages:
 - stage: Build
   displayName: Build stage
