@@ -19,5 +19,5 @@ steps:
   inputs:
     azureSubscription: 'Azure for Students (6c9a9fa8-0f9d-4c7d-8e78-45aa1f91682a)'
     appType: 'webAppLinux'
-    appName: 'test20230308-1web'
+    appName: 'test20230322-1web'
     package: '$(System.DefaultWorkingDirectory)'
